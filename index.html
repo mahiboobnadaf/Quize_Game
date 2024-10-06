@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize Portal</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class = "container gap center flexColumn"> 
+
+        <h1 class="heading"> Quiz Game </h1>
+
+        
+        <div id = "questionBox" class = "">
+            <p> Question A</p>
+        </div>
+
+        <div id="options" class = "gap optionBox flexRow">
+
+            <div class="gap">
+                <div id="option1"> 
+                    <input type="radio" name="Option" id="radio1" class="pointer">
+                    <label id="label1" name="Option" for="radio1" class="pointer"> Option 1 </label> 
+                </div>
+
+                <div id="option2"> 
+                    <input type="radio" name="Option" id="radio2" class="pointer">
+                    <label id="label2" for="radio2" class="pointer"> Option 2 </label>                      
+                </div>
+            </div>
+
+            <div class="gap">
+                <div id="option3">   
+                    <input type="radio" name="Option" id="radio3" class="pointer">
+                    <label id="label3" for="radio3" class="pointer"> Option 3 </label>   
+                </div>
+
+                <div id="option4"> 
+                    <input type="radio" name="Option" id="radio4" class="pointer">
+                    <label id="label4" for="radio4" class="pointer"> Option 4 </label>  
+                </div>
+            </div>      
+
+        </div>
+
+        <div id = "buttons" class="center flexRow"> 
+            <button id="backBtn" class="not-allowed" disabled> Back </button>
+            <button id="nextBtn" class="pointer"> Next </button>
+        </div>
+        
+        
+    </div>
+
+    <script src="quizeScript.js"></script>
+</body>
+</html>
