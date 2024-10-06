@@ -39,7 +39,7 @@ let questions =[
         question: "What is the purpose of Array.prototype.map() method in JavaScript?",
         options: [
           "To filter elements from an array",
-          "To create a new array with results of calling a function on every element in the array",
+          "To create a new array with results of calling \n a function on every element in the array",
           "To add an element to the array",
           "To find the index of an element"
         ],
